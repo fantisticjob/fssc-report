@@ -1,0 +1,113 @@
+.bgimg{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    min-width: 1000px;
+    z-index:-10;
+    zoom: 1;
+    background-color: #fff;
+    background: url(../img/top.png) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+.footer{
+    width: 100%;
+    height:120px;   /* footer的高度一定要是固定值*/ 
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background:#6F81AB;
+}
+.footbut{
+    cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+    font-family: Microsoft YaHei; /* 设置字体 */
+    border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+}
+.footbut:hover { /* 鼠标移入按钮范围时改变颜色 */
+	background: #8C9ABC
+}
+.firstbut{
+    width: 150px;
+    height:120px;   
+    position:absolute;
+    bottom:0px;
+    left:100px;
+    background:#7D8EB3;
+    text-align: center;
+    align-content: center;
+}
+.secondbut{
+    width: 150px;
+    height:120px;   
+    position:absolute;
+    bottom:0px;
+    left:252px;
+    background:#7D8EB3;
+    text-align: center;
+    align-content: center;
+}
+.thridbut{
+    width: 150px;
+    height:120px;   
+    position:absolute;
+    bottom:0px;
+    left:404px;
+    background:#7D8EB3;
+    text-align: center;
+    align-content: center;
+}
+.forthbut{
+    width: 150px;
+    height:120px;   
+    position:absolute;
+    bottom:0px;
+    left:556px;
+    background:#7D8EB3;
+    text-align: center;
+    align-content: center;
+}
+.icon{
+    width: 35px;
+    height:35px; 
+    margin-top: 25px;
+}
+.icondes{
+    margin-top: 10px;
+    font-family:"微软雅黑";
+    font-weight:bold;
+    color: #FFFFFF;
+    align-self: center;
+}
+.iconbig{
+    width: 60px;
+    height:60px; 
+    margin-top: 25px;
+    float:right;
+    margin-right:200px;
+}
+.fifthbut{
+    width: 150px;
+    height:120px;   
+    position:absolute;
+    bottom:0px;
+    right:40px;
+    /* text-align: center; */
+    line-height: 110px;
+    align-content: center;
+    font-family:"微软雅黑";
+    /* font-weight:bold; */
+    color: #FFFFFF;
+    align-self: center;
+    text-decoration:underline;
+}
+a{
+    color: #FFFFFF;
+    align-self: center;
+    text-decoration:underline;
+}

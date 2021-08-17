@@ -1,0 +1,14 @@
+#java
+*.class
+*.log
+#idea
+.idea
+*.iml
+target
+out
+
+# Eclipse Project Files
+.classpath
+.project
+.settings
+
